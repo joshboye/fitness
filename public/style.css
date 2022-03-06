@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+}
+.table {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width:fit-content;
+    height:fit-content;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}

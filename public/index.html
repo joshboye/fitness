@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fitnut</title>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script>
+    // Import the functions you need from the SDKs you need 
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAYHhtYsQY_jcPlIZqikrMv4Ah2mbbnjSQ",
+      authDomain: "fitnut-24e25.firebaseapp.com",
+      projectId: "fitnut-24e25",
+      storageBucket: "fitnut-24e25.appspot.com",
+      messagingSenderId: "532013824075",
+      appId: "1:532013824075:web:4417e35d909b2c4f2db5ce",
+      measurementId: "G-FR699RDDSD"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+  </script>
+  <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+  <!-- <script defer src="/__/firebase/init.js?useEmulator=true"></script> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="js.js" defer></script>
+  <div class="table">
+    <div class="styled-table">
+      <table id="contain">
+        <tr>
+          <td>Rank</td>
+          <td>Name</td>
+          <td>Reps</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>
